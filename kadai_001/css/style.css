@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  width: 100%;
+  font-family:  "Noto Sans JP", sans-serif;
+  margin: 0;
+}
+
+header {
+  max-width: 1080px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 0;
+
+}
+
+#logo-pc a {
+ text-decoration: none;
+ color: black;
+ border: solid 1px black;
+ padding: 0 20px;
+
+}
+
+#nav-pc ul {
+  display: flex;
+  margin-top: 0px;
+}
+
+#nav-pc li {
+  list-style: none;
+  font-size: 34px;
+}
+
+#nav-pc a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+}
+
+#main-visual > img {
+  width: 100%;
+}
+
+#about {
+ margin: 50px auto;
+}
+
+.index-h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about-content {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+#about-content > img {
+  border-radius: 50%;
+}
+
+#about-explain {
+  margin-left: 100px;
+}
+
+#about-explain h3 {
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+#about-explain li {
+  font-size: 18px;
+}
+
+
+#works-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.works-content {
+  width: 240px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.works-photo {
+  width: 100%;
+}
+
+
+
+#copyright {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width:767px) {
+
+  header {
+    padding: 0 10px;
+  }
+
+  #logo-pc a {
+    font-size: 28px;
+  }
+
+  #nav-pc ul {
+    padding: 0;
+  }
+
+  #nav-pc li {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  #main-visual > img {
+    width: 100%;
+  }
+
+  #about {
+    width: 100%;
+  }
+  #about-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-content {
+    text-align: center;
+  }
+
+  #about-explain {
+    margin: 0px auto 0px auto;
+    position: relative;
+    height: 180px;
+  }
+  
+  #about-explain h3{
+    margin-top: 0;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+
+  #about-explain ul {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+
+  #about-explain li {
+    text-align: left;
+  }
+
+  #works-contents {
+    display: block;
+    text-align: center;
+  }
+
+  .works-content {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .works-content p {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+ 
+  #copyright {
+    margin-top: 30px;
+  }
+}
